@@ -1,3 +1,5 @@
+ref: https://github.com/diyism/one-api/#deploy-with-caprover
+
 <div align="center">
 <h1>CapRover</h1>
 <a href="https://hub.docker.com/r/caprover/caprover/" target="_blank" title="Docker Pulls">
