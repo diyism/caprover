@@ -1,4 +1,8 @@
-ref: https://github.com/diyism/one-api/#deploy-with-caprover
+    ref: https://github.com/diyism/one-api/#deploy-with-caprover
+
+    如果容器内dockerfile里是通过cloudflared暴露服务端口, 则不需要capRover的captain-nginx根据http域名来 分流, 可以用命令干掉captian-nginx:
+    sudo docker service scale captain-nginx=0
+    这样也可以释放出宝贵的443端口给非web server的服务使用
 
 <div align="center">
 <h1>CapRover</h1>
